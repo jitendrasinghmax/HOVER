@@ -43,8 +43,7 @@ const Header = () => {
                             </DropdownMenuContent>
                         </DropdownMenu>
                     </div> : <div className='flex gap-2'>
-                        <Button className='px-2' basic color='gray' content="gray" onClick={() => navigate("/register")}>sign up</Button>
-                        <Button className='px-2'  basic color='gray' content="gray" onClick={() => navigate("/login")}>login</Button>
+                        <Button className='px-2'  basic color='gray' content="gray" onClick={() => navigate("/login")}> signup / login </Button>
                     </div>
 
                 }
